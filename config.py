@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 API_ID = int(environ.get("API_ID", "29849415"))
 API_HASH = environ.get("API_HASH", "0dd6c10897b85d7f10a8dcdeb74f8b8a")
-BOT_TOKEN = environ.get("BOT_TOKEN", "6253974886:AAGB11jJzxP_uKLCUDKQ9JvFf8qy4rJJq1Q")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6686609357:AAGRm-baQcSH3wbIHo-aE-7xoxRcLEzGvi8")
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001763943446"))
 ADMINS = int(environ.get("ADMINS", "5165943027"))
 DB_URI = environ.get("DB_URI", "mongodb+srv://dahif89943:sudipsaha2006@cluster0.iscxsme.mongodb.net/?retryWrites=true&w=majority")
