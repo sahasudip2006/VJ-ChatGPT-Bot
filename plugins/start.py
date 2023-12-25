@@ -22,7 +22,7 @@ async def start_message(c,m):
     await db.add_user(m.from_user.id, m.from_user.first_name)
     await c.send_message(LOG_CHANNEL, LOG_TEXT.format(m.from_user.id, m.from_user.mention))
     await m.reply_photo(f"https://te.legra.ph/file/119729ea3cdce4fefb6a1.jpg",
-        caption="**ʜɪ** 👋\n\n**ɪ ᴀᴍ ᴀ ᴄʜᴀᴛɢᴘᴛ ʙᴏᴛ**\n\n⭕ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ :-** **[Tᴇᴄʜ VJ](https://t.me/main_channel_bot_update)**",
+        caption="**ʜɪ** 👋\n\n**ɪ ᴀᴍ ᴀ ᴄʜᴀᴛɢᴘᴛ ʙᴏᴛ**\n\n⭕ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ :-** **[ SUDIP Bots](https://t.me/main_channel_bot_update)**",
         reply_markup=InlineKeyboardMarkup(
                 [
                     [
