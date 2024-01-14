@@ -16,6 +16,6 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "6686609357:AAGRm-baQcSH3wbIHo-aE-7xoxRcLEz
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001763943446"))
 ADMINS = int(environ.get("ADMINS", "5165943027"))
 DB_URI = environ.get("DB_URI", "mongodb+srv://dahif89943:sudipsaha2006@cluster0.iscxsme.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = environ.get("DB_NAME", "chatgptvjbot")
+DB_NAME = environ.get("DB_NAME", "dahif89943")
 OPENAI_API = environ.get("OPENAI_API", "")
 AI = is_enabled((environ.get("AI","True")), False)
